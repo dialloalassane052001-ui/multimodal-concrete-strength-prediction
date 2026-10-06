@@ -7,7 +7,14 @@ Can we predict the compressive strength **fc (MPa)** of concrete from its micros
 
 ## Pipeline Architecture
 
-![Pipeline architecture](architecture_pipeline.png)
+```mermaid
+flowchart LR
+    A["388 articles<br/>(Markdown)"] --> B["Anchored extraction<br/>1 JSON / article<br/>+ _src column"]
+    B --> C["Physical validation<br/>out of range → empty<br/>+ log"]
+    C --> D["Assembly<br/>2 datasets (.xlsx)"]
+    D --> E["Image ↔ formulation<br/>association<br/>(caption-matching)"]
+    E --> F["Modeling<br/>6 approaches"]
+```
 
 *388 articles → anchored extraction → physical validation → 2 datasets → image ↔ formulation association → modeling*
 
