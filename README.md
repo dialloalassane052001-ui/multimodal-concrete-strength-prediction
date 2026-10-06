@@ -89,8 +89,4 @@ Python · pandas · NumPy · scikit-learn · XGBoost · PyTorch · OpenCV · Bea
 
 This repository intentionally does **not** include the source code, datasets or trained models. The work was carried out within the L2MGC laboratory and is subject to research confidentiality.
 
-## About Me
 
-**Moussa Diallo**: junior Data Scientist / Machine Learning Engineer, M.Sc. in Applied Mathematics (Université de Toulouse III Paul Sabatier, 2026). Looking for a CDI or CDD in Data Science / ML in France (Toulouse or Île-de-France). Available immediately.
-
-📧 diallomoussa052001@gmail.com · 🔗 [GitHub](https://github.com/dialloalassane052001-ui)
